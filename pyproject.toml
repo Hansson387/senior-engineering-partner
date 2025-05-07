@@ -4,3 +4,4 @@ version = "0.1.0"
 description = "A stack-agnostic Claude Code skill: strict code reviewer, pair programmer, debugger, and mentor (Python/Bash/Apps Script/JS/Swift). Security-first, phase-aware engineering discipline with a spec→plan→TDD→verify workflow."
 requires-python = ">=3.10"
 # clarify the control flow
+# avoid re-reading the config on every call
