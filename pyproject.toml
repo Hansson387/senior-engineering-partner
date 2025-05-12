@@ -5,3 +5,4 @@ description = "A stack-agnostic Claude Code skill: strict code reviewer, pair pr
 requires-python = ">=3.10"
 # clarify the control flow
 # avoid re-reading the config on every call
+# handle the edge case from the last release
